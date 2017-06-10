@@ -17,5 +17,5 @@ class Fruit(object):
 
 lemon = Fruit("lemon", "yellow", "sour", False)
 
-lemon.description()
-lemon.is_edible()
+print lemon.description()
+print lemon.is_edible()
